@@ -40,6 +40,37 @@ body .img_1 {
   z-index: -1;
   animation: 1.3s ease-in-out FadeIn;
 }
+body .img_2 {
+  border: 5px solid white;
+  border-radius: 50px;
+  margin: 7rem 15rem;
+}
+body #Line-1 {
+  position: absolute;
+  left: 51rem;
+  top: 29rem;
+}
+body #Line-2 {
+  position: absolute;
+  left: 18rem;
+  top: 5rem;
+}
+body .Soup {
+  font-size: 3.9rem;
+  font-family: "Mali", cursive;
+  position: absolute;
+  top: 0.2rem;
+  left: 20rem;
+  color: white;
+}
+body .Tea {
+  color: white;
+  font-size: 3.9rem;
+  font-family: "Mali", cursive;
+  position: absolute;
+  top: 36.3rem;
+  left: 52rem;
+}
 body aside {
   position: absolute;
   display: flex;
@@ -69,10 +100,11 @@ body aside .container:nth-child(3) {
   padding-left: 2rem;
 }
 body aside .container:nth-child(3):hover {
-  transform: translateX(-10rem);
+  transform: translateX(-8rem);
 }
 body aside .container:hover {
   transform: translateX(-5rem);
+  cursor: pointer;
 }
 
 @keyframes slideInTop {

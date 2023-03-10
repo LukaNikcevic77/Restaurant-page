@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("content"),document.createElement("h1"),document.createElement("p"),document.createElement("img")})();
