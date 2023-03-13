@@ -16,6 +16,10 @@ body {
     width: clamp(100%, 100vw, 100%);
     background-color: #0b0c11;
     overflow: hidden;
+    #content {
+        
+        height: 100%;
+    
     .Title {
         font-size: 200px;
         font-family: 'Mr Dafoe', cursive;
@@ -49,13 +53,14 @@ body {
         transform: scale(1.3);
         border-radius: 50px;
         margin: 13rem 25rem;
+        animation: 1.3s ease-in-out FadeIn;
     }
 
     #Line-1 {
         position: absolute;
         left: 61rem;
         top: 39rem;
-        
+        animation:  0.5s ease-in-out slideInBottom;
     }
 
     #Line-2 {
@@ -63,15 +68,17 @@ body {
         left: 25rem;
         top: 3rem;
         transform: scale(1.2);
+        animation:  0.5s ease-in-out slideInTop;
     }
 
     .Soup {
-            font-size: 5.2rem;
+            font-size: 5rem;
             font-family: 'Mali', cursive;
             position: absolute;
-            top: 0.2rem;
+            top: 0.5rem;
             left: 23rem;
             color: white;
+            animation:  1s ease-in-out slideInLeft;
     }
 
     .Tea {
@@ -81,15 +88,16 @@ body {
             position: absolute;
             top: 47rem;
             left: 64.5rem;
+            animation:  1s ease-in-out slideInRight;
 
     }
-
+}
     aside {
         position: absolute;
         display: flex;
         flex-direction: column;
         font-family: 'Mr Dafoe', cursive;
-        top: 10vw;
+        top: 12vw;
         left: 68.5vw;
         color: white;
         
@@ -161,6 +169,17 @@ body {
     }
 }
 
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @keyframes FadeIn {
     0% {
         opacity: 0;
@@ -168,5 +187,14 @@ body {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes ScaleUp {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
     }
 }
