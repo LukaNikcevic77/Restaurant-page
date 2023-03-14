@@ -1,4 +1,4 @@
-export {AppendStuff};
+export {StyleStuff};
 
 const contentHolder = document.getElementById('content');
 
