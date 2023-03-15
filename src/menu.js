@@ -1,7 +1,7 @@
 export {StyleMenu};
 
 const contentHolder = document.getElementById('content');
-
+contentHolder.classList.remove("makeFlex");
 const soup = document.createElement('h1');
 const tea = document.createElement('p');
 const image = document.createElement('img');

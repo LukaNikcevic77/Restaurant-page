@@ -8,6 +8,7 @@ const image = document.createElement('img');
 
 function StyleStuff(){
 console.log(contentHolder);
+contentHolder.classList.remove("makeFlex");
 title.classList.add('Title');
 title.textContent = "情熱";
 description.classList.add('desc');
