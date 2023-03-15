@@ -1,3 +1,6 @@
 import { StyleMenu } from "./menu";
-console.log("dick!");
+import { StyleContact } from "./contact";
+
+
+StyleContact();
 

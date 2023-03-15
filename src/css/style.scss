@@ -44,6 +44,9 @@ body {
     .Owner, .Chief {
         animation: 1s ease-in-out slideInBottom;
     }
+    .Owner {
+        margin-top: 6vw;
+    }
 
     .OwnerName, .ChiefName {
             margin-top: 1vw;
@@ -210,6 +213,9 @@ body {
         h1 {
             font-family: 'Mali', cursive;
             font-size: 3vw;
+        }
+        i {
+            font-size: 2.8vw;
         }
 
     }

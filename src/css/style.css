@@ -34,6 +34,9 @@ body #content .Owner:nth-child(1), body #content .OwnerName:nth-child(1), body #
 body #content .Owner, body #content .Chief {
   animation: 1s ease-in-out slideInBottom;
 }
+body #content .Owner {
+  margin-top: 6vw;
+}
 body #content .OwnerName, body #content .ChiefName {
   margin-top: 1vw;
   opacity: 0;
@@ -177,6 +180,9 @@ body footer {
 body footer h1 {
   font-family: "Mali", cursive;
   font-size: 3vw;
+}
+body footer i {
+  font-size: 2.8vw;
 }
 
 @keyframes slideInTop {
