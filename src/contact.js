@@ -1,7 +1,7 @@
 export {StyleContact};
 
-const contentHolder = document.getElementById('content');
-contentHolder.classList.add("makeFlex");
+
+
 const Owner = document.createElement('h1');
 const Chief = document.createElement('h1');
 const OwnerName = document.createElement('h1');
@@ -15,8 +15,8 @@ const Line2 = document.createElement('div');
 const footer = document.createElement('footer');
 const footerText = document.createElement("h1");
 const githubIcon = document.createElement("i");
-function StyleContact(){
-    
+function StyleContact(ambis){
+    ambis.classList.add("makeFlex");
  Owner.classList.add("Owner");
  Owner.textContent = "Owner";
 
@@ -50,24 +50,24 @@ function StyleContact(){
  footerText.textContent = "Copyrigth Ⓒ 2023 LukaNikcevic77";
 
 
-AppendMenu();
+AppendMenu(ambis);
 
 
 }
 
-function AppendMenu(){
+function AppendMenu(ambis){
 
-    contentHolder.appendChild(Owner);
-    contentHolder.appendChild(Line1);
-    contentHolder.appendChild(OwnerName);
-    contentHolder.appendChild(tel1);
-    contentHolder.appendChild(mail1);
+    ambis.appendChild(Owner);
+    ambis.appendChild(Line1);
+    ambis.appendChild(OwnerName);
+    ambis.appendChild(tel1);
+    ambis.appendChild(mail1);
 
-    contentHolder.appendChild(Chief);
-    contentHolder.appendChild(Line2);
-    contentHolder.appendChild(ChiefName);
-    contentHolder.appendChild(tel2);
-    contentHolder.appendChild(mail2);
+    ambis.appendChild(Chief);
+    ambis.appendChild(Line2);
+    ambis.appendChild(ChiefName);
+    ambis.appendChild(tel2);
+    ambis.appendChild(mail2);
 
     document.body.appendChild(footer);
     footer.appendChild(footerText);

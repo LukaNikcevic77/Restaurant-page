@@ -1,14 +1,13 @@
-export {StyleStuff};
+export {StyleHome, AppendHome};
 
-const contentHolder = document.getElementById('content');
+const contentHolder = document.querySelector("#content");
 
 const title = document.createElement('h1');
 const description = document.createElement('p');
 const image = document.createElement('img');
 
-function StyleStuff(){
-console.log(contentHolder);
-contentHolder.classList.remove("makeFlex");
+function StyleHome(ambis){
+console.log("Hej mico");
 title.classList.add('Title');
 title.textContent = "情熱";
 description.classList.add('desc');
@@ -17,15 +16,17 @@ image.classList.add('img_1');
 image.setAttribute("src", "/restourantBigger.jpeg");
 image.setAttribute("srcset", "/restourantBigger.jpeg");
 
-AppendStuff();
+AppendHome(ambis);
 
 
 }
 
-function AppendStuff(){
-
-    contentHolder.appendChild(title);
-    contentHolder.appendChild(description);
-    contentHolder.appendChild(image);
+function AppendHome(ambis){
+    
+    console.log(ambis);
+    ambis.appendChild(title);
+    console.log(title);
+    ambis.appendChild(description);
+    ambis.appendChild(image);
 }
 
