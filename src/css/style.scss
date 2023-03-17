@@ -36,7 +36,9 @@ body {
 
         &:nth-child(1) {
             margin-top: 6vw;
-            
+            @media (width: 1440px) and (height: 900px) {
+                margin-top: 0vw;
+            }
         }
         
         
@@ -46,6 +48,8 @@ body {
     }
     .Owner {
         margin-top: 6vw;
+        
+        
     }
 
     .OwnerName, .ChiefName {
@@ -78,6 +82,8 @@ body {
         font-family: 'Mali', cursive;
         animation: 1s ease-in-out forwards slideInBottom;
         animation-delay: 2s;
+
+        
         
     }
     
@@ -118,31 +124,39 @@ body {
 
     .img_2 {
         border: 5px solid white;
-        transform: scale(1.5);
+        width: 60vw;
+        height: auto;
         border-radius: 50px;
-        margin: 20rem 35rem;
+        margin: 11vw 19vw;
         animation: 1.3s ease-in-out FadeIn;
+        @media (width: 1440px) and (height: 900px) {
+            margin-top: 6vw;
+        }
     }
 
     #Line-1 {
         position: absolute;
-        left: 81rem;
-        top: 49rem;
-        transform: scale(1.5);
+        left: 65vw;
+        top: 39vw;
+        width: 19vw;
+        height: auto;
         opacity: 0;
         animation-name: FadeIn;
         animation-duration: 1.5s;
         animation-delay: 1.3s;
         animation-fill-mode: forwards;
         
-        
+        @media (width: 1440px) and (height: 900px) {
+            margin-top: 4vw;
+        }
     }
 
     #Line-2 {
         position: absolute;
-        left: 35rem;
-        top: 8rem;
-        transform: scale(1.3);
+        left: 26.5vw;
+        top: 3vw;
+        width: 26vw;
+        height: auto;
         opacity: 0;
         animation-delay: 1.3s;
         animation-name: FadeIn;
@@ -150,6 +164,9 @@ body {
         animation-delay: 1.3s;
         animation-fill-mode: forwards;
         
+        @media (width: 1440px) and (height: 900px) {
+            margin-top: 4vw;
+        }
     }
 
     .Soup {
@@ -164,6 +181,10 @@ body {
             animation-duration: 1.2s;
             animation-delay: 1.6s;
             animation-fill-mode: forwards;
+
+            @media (width: 1440px) and (height: 900px) {
+                margin-top: 4vw;
+            }
             
     }
 
@@ -180,6 +201,10 @@ body {
             animation-duration: 1.2s;
             animation-delay: 1.6s;
             animation-fill-mode: forwards;
+
+            @media (width: 1440px) and (height: 900px) {
+                margin-top: 4vw;
+            }
            
 
     }
@@ -253,6 +278,7 @@ body {
         }
         i {
             font-size: 2.8vw;
+            padding-left: 1vw;
         }
 
     }
