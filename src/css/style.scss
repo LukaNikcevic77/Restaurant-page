@@ -82,31 +82,38 @@ body {
     }
     
     .Title {
-        font-size: 200px;
+        font-size: 15vw;
         font-family: 'Mr Dafoe', cursive;
+        font-weight: 400;
         color: white;
-        margin-left: 10rem;
-        margin-top: 4rem;
-
+        margin-left: 10vw;
+        margin-top: 4vw;
         animation: 1s ease-in-out 0s 1 slideInTop;
     }
 
     .desc {
         color: white;
-        font-size: 1.8rem;
+        font-size: 2.6vw;
         font-family: 'Mali', cursive;
-        max-width: 23rem;
-        margin-left: 10vw;
+        max-width: 30vw;
+        margin-left: 12vw;
         animation: 1s ease-in-out 0s 1 slideInBottom;
+
+        
     }
 
     .img_1 {
         position: absolute;
-        transform: scale(0.6);
-        top: -5rem;
-        left: 10vw;
+        width: 80vw;
+        height: auto;
+        top: 5vw;
+        left: 25vw;
         z-index: -1;
         animation: 1.3s ease-in-out FadeIn;
+
+        @media (width: 1440px) and (height: 900px) {
+            margin-top: 6vw;
+        }
     }
 
     .img_2 {
@@ -122,7 +129,13 @@ body {
         left: 81rem;
         top: 49rem;
         transform: scale(1.5);
-        animation:  0.5s ease-in-out slideInBottom;
+        opacity: 0;
+        animation-name: FadeIn;
+        animation-duration: 1.5s;
+        animation-delay: 1.3s;
+        animation-fill-mode: forwards;
+        
+        
     }
 
     #Line-2 {
@@ -130,29 +143,49 @@ body {
         left: 35rem;
         top: 8rem;
         transform: scale(1.3);
-        animation:  0.5s ease-in-out slideInTop;
+        opacity: 0;
+        animation-delay: 1.3s;
+        animation-name: FadeIn;
+        animation-duration: 1.5s;
+        animation-delay: 1.3s;
+        animation-fill-mode: forwards;
+        
     }
 
     .Soup {
-            font-size: 5.6rem;
+            font-size: 5vw;
             font-family: 'Mali', cursive;
             position: absolute;
-            top: 4rem;
-            left: 31rem;
+            top: 3vw;
+            left: 26vw;
             color: white;
-            animation:  1s ease-in-out slideInLeft;
+            transform: translateX(-500%);
+            animation-name: slideInLeft;
+            animation-duration: 1.2s;
+            animation-delay: 1.6s;
+            animation-fill-mode: forwards;
+            
     }
 
     .Tea {
             color: white;
-            font-size: 6.5rem;
+            font-size: 5.8vw;
             font-family: 'Mali', cursive;
             font-weight: 600;
             position: absolute;
-            top: 58rem;
-            left: 78rem;
-            animation:  1s ease-in-out slideInRight;
+            top: 48vw;
+            left: 65vw;
+            transform: translateX(500%);
+            animation-name: slideInRight;
+            animation-duration: 1.2s;
+            animation-delay: 1.6s;
+            animation-fill-mode: forwards;
+           
 
+    }
+
+    @media (width: 1440px) and (height: 900px) {
+        margin-top: 9vw;
     }
 }
     aside {
@@ -163,39 +196,43 @@ body {
         top: 15vw;
         left: 85vw;
         color: white;
-        gap: 2rem;
+        gap: 2vw;
         
 
         .container {
-            font-size: 5rem;
-            margin-bottom: 2rem;
+            font-size: 4vw;
+            margin-bottom: 2vw;
             border-radius: 50px;
             transition: transform .2s cubic-bezier(0.4, 0, 1, 1);
             box-shadow: 0px 0px 20px white;
             text-align: center;
-            padding-right: 8rem;
+            padding-right: 8vw;
             animation: 1s ease-in-out slideInRight;
             &:nth-child(1) {
                 &:hover {
-                    transform: translateX(-3rem);
+                    transform: translateX(-3vw);
                 }
             }
             &:nth-child(2) {
                 &:hover {
-                    transform: translateX(-3rem);
+                    transform: translateX(-3vw);
                 }
             }
             &:nth-child(3) {
                 padding-left: 2rem;
                 &:hover {
-                    transform: translateX(-3rem);
+                    transform: translateX(-3vw);
                 }
             }
 
             &:hover {
-                transform: translateX(-5rem);
+                transform: translateX(-5vw);
                 cursor: pointer;
             }
+        }
+
+        @media (width: 1440px) and (height: 900px) {
+            margin-top: 6vw;
         }
     }
     footer {
