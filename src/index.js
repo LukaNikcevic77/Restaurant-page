@@ -1,6 +1,7 @@
 import {StyleMenu} from './menu';
 import {StyleContact} from './contact';
 import {StyleHome, AppendHome} from './home';
+import './css/style.scss';
 
 const goHome = document.getElementById('n1');
 const goMenu = document.getElementById('n2');
@@ -10,6 +11,12 @@ const container = document.getElementById('content');
 const newContainer = document.createElement('div');
 newContainer.classList.add('contentt');
 newContainer.setAttribute('id', 'content');
+
+console.log('goHOme ' + goHome);
+console.log('goMenu ' + goMenu);
+console.log('goContact ' + goCont);
+console.log('kontenjer ' + container);
+console.log('noviKontenjer ' + newContainer);
 
 
 container.remove();
@@ -66,4 +73,3 @@ function makeChange(change) {
       break;
   }
 }
-

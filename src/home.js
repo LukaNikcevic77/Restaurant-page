@@ -1,10 +1,10 @@
 export {StyleHome, AppendHome};
-
+import Restoran from '../design_photos_and_restourant_images/restourantBigger.jpeg';
 const contentHolder = document.querySelector('#content');
 
 const title = document.createElement('h1');
 const description = document.createElement('p');
-const image = document.createElement('img');
+const image = new Image();
 
 function StyleHome(ambis) {
   ;
@@ -13,9 +13,7 @@ function StyleHome(ambis) {
   description.classList.add('desc');
   description.textContent = 'Delivering the hearth of Japan is the mission we feel passionate about!';
   image.classList.add('img_1');
-  image.setAttribute('src', '/design photos and restourant images/restourantBigger.jpeg');
-
-  image.setAttribute('srcset', '/design photos and restourant images/restourantBigger.jpeg');
+  image.src = Restoran;
 
   AppendHome(ambis);
 }
