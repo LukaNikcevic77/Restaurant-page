@@ -5,7 +5,7 @@
 ![home page design](https://github.com/LukaNikcevic77/Restaurant-page/blob/main/design_photos_and_restourant_images/Home.png?raw=true)
 
 **Note:** 
-This webpage wasa made to be responsive on major desktop screen sizes only!
+This webpage was made to be responsive on major desktop screen sizes only!
 For this webpage I wanted to get a little bit into web design so I went and learned some figma which, 
 I wanted to put to use. So I crafted my first web design using [image of yatai](https://images.squarespace-cdn.com/content/v1/50466cffe4b09c5c216a7a1d/1624801928589-P92HUSGX6F5IHYL1ASF2/WhatsApp+Image+2021-04-08+at+12.44.31.jpeg?format=750w;)
 and [image of it's menu](https://images.squarespace-cdn.com/content/v1/50466cffe4b09c5c216a7a1d/1624803286161-0IM3SKV3NJC9CDKUK067/WhatsApp+Image+2021-04-08+at+12.44.32.jpeg?format=750w;)
