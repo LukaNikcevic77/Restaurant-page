@@ -44,7 +44,7 @@ I am using svg in practical work and combining them with simple animations.
     
     * [Odin project link]
     * [Live preview]
-    * [Github code]
+    * [Github code](https://github.com/LukaNikcevic77/Restaurant-page)
 
 # Design usage
 
