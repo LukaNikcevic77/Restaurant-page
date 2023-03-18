@@ -1,7 +1,7 @@
 export {StyleMenu};
 import Vector1 from '../design_photos_and_restourant_images/Vector1.svg';
-import Vector2 from '/design_photos_and_restourant_images/Vector2.svg';
-import Menu from '/design_photos_and_restourant_images/Menu.jpeg';
+import Vector2 from '../design_photos_and_restourant_images/Vector2.svg';
+import Menu from '../design_photos_and_restourant_images/Menu.jpeg';
 const soup = document.createElement('h1');
 const tea = document.createElement('p');
 const image = new Image();

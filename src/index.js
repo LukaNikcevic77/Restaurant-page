@@ -1,7 +1,7 @@
 import {StyleMenu} from './menu';
 import {StyleContact} from './contact';
 import {StyleHome, AppendHome} from './home';
-
+import './css/style.css'
 const goHome = document.getElementById('n1');
 const goMenu = document.getElementById('n2');
 const goCont = document.getElementById('n3');
