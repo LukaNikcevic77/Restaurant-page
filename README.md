@@ -2,7 +2,7 @@
 
 ###  This is web page representing small fictional japanese yatai 🇯🇵
 
-![home page design](https://github.com/LukaNikcevic77/Restaurant-page/blob/main/design%20photos%20and%20restourant%20images/Home.png?raw=true)
+![home page design](https://github.com/LukaNikcevic77/Restaurant-page/blob/main/design_photos_and_restourant_images/Home.png?raw=true)
 
 **Note:** 
 This webpage wasa made to be responsive on major desktop screen sizes only!
