@@ -42,9 +42,9 @@ I am using svg in practical work and combining them with simple animations.
 
 # Previews
     
-[Odin project link]()
 
-[Live preview]()
+
+[Live preview](https://lukanikcevic77.github.io/Restaurant-page/)
 
 [Github code](https://github.com/LukaNikcevic77/Restaurant-page)
 
