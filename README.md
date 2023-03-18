@@ -2,7 +2,7 @@
 
 ###  This is web page representing small fictional japanese yatai 🇯🇵
 
-image of homepage here!
+![home page design](https://github.com/LukaNikcevic77/Restaurant-page/blob/main/design%20photos%20and%20restourant%20images/Home.png?raw=true)
 
 **Note:** 
 This webpage wasa made to be responsive on major desktop screen sizes only!
@@ -14,7 +14,7 @@ and went to work, I also wanted to give something to community so if someone fin
 for this small project were to use the least possible ammount of javascript lines and to make my webpage responsive for major Desktop screen sizes. Also this is first time that 
 I am using svg in practical work and combining them with simple animations.
 
- #Goals:
+ # Goals:
 
 ### TOP goals:
 
@@ -43,7 +43,9 @@ I am using svg in practical work and combining them with simple animations.
 # Previews
     
 [Odin project link]()
+
 [Live preview]()
+
 [Github code](https://github.com/LukaNikcevic77/Restaurant-page)
 
 # Design usage
