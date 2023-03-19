@@ -12,7 +12,7 @@ and [image of it's menu](https://images.squarespace-cdn.com/content/v1/50466cffe
 that I borrowed from [Betty's blog](https://www.guobetty.com/blog/2021/6/22/blender-self-learning-one-month-progress;) be sure to check it out btw. So i exported it from figma 
 and went to work, I also wanted to give something to community so if someone finds my design good enough for their needs they can use it without any restrictions. My main concerns 
 for this small project were to use the least possible ammount of javascript lines and to make my webpage responsive for major Desktop screen sizes. Also this is first time that 
-I am using svg in practical work and combining them with simple animations.
+I am using svgs in practical work and combining them with simple animations.
 
  # Goals:
 
@@ -25,7 +25,7 @@ I am using svg in practical work and combining them with simple animations.
 ### Personal goals
 
    * Practice web design;
-   * Shrink down ammount of javascript lines used;
+   * Shrink down amount of javascript lines used;
    * Make website responsive for major Desktop screen sizes;
    * Practice animations;
 
